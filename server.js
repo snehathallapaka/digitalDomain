@@ -74,7 +74,7 @@ io.on('connection', function (socket) {
         console.log(data);
     });
 
-    r.table('authors1').changes().run(connection, function(err, cursor) {
+    r.table('logs').changes().run(connection, function(err, cursor) {
         if (err) throw err;
         cursor.each(function (err, row) {
             if (err) throw err;
