@@ -1,0 +1,41 @@
+{
+  "name": "lognlink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "^1.17.2",
+    "connect-multiparty": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.15.3",
+    "fs-extra": "^4.0.1",
+    "get-video-id": "^2.1.6",
+    "jsonwebtoken": "^7.4.2",
+    "mongoose": "^4.11.4",
+    "morgan": "^1.8.2",
+    "msg91": "0.0.6",
+    "nconf": "^0.10.0",
+    "nodemailer": "^4.0.1",
+    "request": "^2.81.0",
+    "rethinkdbdash": "^2.3.31",
+    "socket.io": "^2.0.3",
+    "speakeasy": "^2.0.0",
+    "twilio": "^3.6.6",
+    "ua-parser-js": "^0.7.17",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-minify": "^1.0.0",
+    "gulp-ng-annotate": "^2.0.0"
+  }
+}

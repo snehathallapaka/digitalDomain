@@ -1,0 +1,14 @@
+# node modules
+node_modules
+
+# bower
+client/components
+build/
+
+# system files
+server/routes/companyPics
+server/routes/images
+server/routes/postImages
+.idea
+*.DS_Store
+.env

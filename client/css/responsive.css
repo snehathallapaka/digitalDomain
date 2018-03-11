@@ -1,0 +1,261 @@
+@media (max-width:1200px) {
+    .registration-form .btn-file {
+        width: 28%;
+    }
+}
+@media (max-width:992px) {
+    .registration-form .btn-file {
+        width: 43%;
+    }
+    .login-form ul li{
+        width:100%;
+    }
+    .login-form{
+        width:90%;
+    }
+}
+
+@media (max-width:768px) {
+    .login-page {
+        display: block;  
+        /*height: auto;*/
+           }
+    .signup-page {
+        display: block;        
+        height: auto;
+    }
+    .login-page-left {
+        display: block;
+        width: 100%;
+    }
+    .login-page-left h1 {
+        font-size: 30px;
+        margin: 50px 0 0 0;
+        padding: 0 0 20px 0;
+    }
+    .login-page-left p {
+        font-size: 15px;
+        padding: 0;
+    }
+    .login-page-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .login-form {
+        display: block;
+        width: 80%;
+        margin: 0 0 0 30px;
+    }
+    .login-form ul li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .login-form h1 {
+        margin: 25px 0;
+    }
+    .login-form ul li.top-space {
+        margin: 30px 0 15px 0;
+    }
+    .login-form ul li .btn-login {
+        width: 28%;
+        height: 35px;
+        border-radius: 3px;
+        line-height: 21px;
+        background-color: #00acdb;
+        font-size: 13px;
+        color: #ccc;
+        border: none;
+        float: left;
+        display: inline-block;
+    }
+    .login-form ul li.btn {
+        width: 40%;
+        color: #fff;
+        font-size: 15px;
+        border: 1px solid;
+        padding: 0;
+        height: 40px;
+        line-height: 39px;
+    }
+    .login-form ul li .textfield {
+        text-align: left;
+        font-size: 14px;
+        line-height: 35px;
+    }
+    .login-form ul li a {
+        color: #fff;
+        font-size: 15px;
+        outline: none;
+        float: right;
+        margin-top: 6px;
+    }
+    .login-form ul li .mem {
+        font-size: 13px;
+    }
+    .modal {
+        margin: 0 auto;
+        border-radius: 5px;
+        width: 90%;
+        height: auto;
+        bottom: 0;
+        top: 100px;
+    }
+    .login-form ul li p {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 20px;
+    }
+    .signup-page-right {
+        display: block;
+        width: 100%;
+        position: relative;
+        vertical-align: middle;
+    }
+    .logo {
+        margin: 20px 0 0 0;
+    }
+    .signup-form ul {
+        width: 100%;
+    }
+    .signup-form h1 {
+        color: #fff;
+        font-weight: normal;
+        text-align: left;
+        font-size: 25px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .signup-form .radio-button h3 {
+        display: inline-block;
+        font-size: 14px;
+    }
+    .btn-signup {
+        height: 40px;
+        line-height: 40px;
+        border-radius: 3px;
+        background-color: #00acdb;
+        font-size: 16px;
+        color: #fff;
+        border: none;
+        float: left;
+        display: inline-block;
+    }
+    .su-mem{
+        font-size: 14px;
+        padding-right: 0;
+    }
+    .su-mem a{
+        font-size: 14px;
+        color: #fff;
+    }
+   
+    .signup-page-right p {
+        margin: 15px 0 14px 16px;
+        display: block;
+        color: #fff;
+        font-size: 10px;
+    }
+    .link-business ul li .radio-custom,
+    .radio-custom-label {
+        font-size: 14px;
+    }
+    .signup-form .radio-custom:checked+.radio-custom-label:before {
+        content: "";
+        background: url(../images/right-mark.png) no-repeat center center;
+        width: 20px;
+        height: 20px;
+        background-size: 13px auto;
+    }
+    .radio-custom+.radio-custom-label:before {
+        content: '';
+        background: none;
+        display: inline-block;
+        vertical-align: middle;
+        width: 20px;
+        height: 20px;
+        padding: 2px;
+        margin-right: 10px;
+        text-align: center;
+        border: #dfdfdf 1px solid;
+    }
+    .content-page {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    .header-left {
+        float: left;
+        margin-left: 15px;
+    }
+    .header-right {
+        float: right;
+        width: 40%;
+        margin: 10px 0 0 0;
+    }
+    .bsn-images ul li.nxt-btn {
+        margin-right: 20px;
+    }
+    .bsn-images h1 {
+        color: #fff;
+        font-size: 26px;
+        line-height: 40px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        padding: 47px 0 36px 0;
+    }
+    .profile-right-section {
+        margin-top: 30px;
+    }
+    .section-two-right {
+        margin-left: 25px;
+    }
+    .profile-section {
+        padding: 30px 0;
+    }
+      .edit-details .edit-details-left{
+        display: block;
+    }
+    .edit-details .edit-details-left h3{
+        text-align: center;         
+        font-size: 18px;
+    }
+    .ang-select-button {
+        width:100%;
+    }
+    .registration-form .form-group label{
+        width:100%;
+    }
+    .registration-form .custom-form-control{
+        width:100%;
+    }
+    .registration-form .btn-file{
+        width:64%;
+    }
+}
+   
+
+@media (max-width:425px){
+    .signup-form{
+        padding: 20px;
+    }
+     .btn-signup {
+        height: 30px;
+        line-height: 30px;
+        border-radius: 3px;
+        background-color: #00acdb;
+        font-size: 13px;
+        color: #fff;
+        border: none;
+        float: left;
+        display: inline-block;
+    }
+    .su-mem{
+        font-size: 12px;
+    }
+    
+}
+    
+  
+

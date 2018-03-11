@@ -1,0 +1,29 @@
+{
+  "name": "lognlink",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sneha <sai@mtwlabs.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "angular-ui-router": "^1.0.5",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "underscore": "^1.8.3",
+    "angular-bootstrap": "^2.5.0",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  }
+}
